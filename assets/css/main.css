@@ -29,7 +29,7 @@ footer {
     margin:0;
     padding:0;
     text-align:center;
-    height: : 10%;
+    height: 10%;
     z-index: 1;
     background-color: white;
 }
@@ -57,7 +57,13 @@ footer {
 }
 
 .container-slideshow {
-	width: 80%;
+	width: 20%;
+    height: 20%;
+}
+
+.container-slideshow img {
+    width:  1000px;
+    height: 500px;
 }
 
 .container-slideshow #slideshow-image-1 {
