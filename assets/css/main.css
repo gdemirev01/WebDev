@@ -1,3 +1,25 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 100px;
+    /* bottom = footer height */
+    padding: 25px;
+}
+
+footer {
+    background-color: #FFCCFF;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
 .nav{
 	position: sticky;
   	top: 0;
@@ -52,3 +74,24 @@ p {
 }
 
 h4 {font-size: 2.5vw;}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 1%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}

@@ -1,24 +1,4 @@
-html {
-    position: relative;
-    min-height: 100%;
-}
 
-body {
-    margin: 0 0 100px;
-    /* bottom = footer height */
-    padding: 25px;
-}
-
-footer {
-    background-color: #FFCCFF;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 8%;
-    width: 100%;
-    overflow: hidden;
-    text-align: center;
-}
 
 .card {
 	box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2);
