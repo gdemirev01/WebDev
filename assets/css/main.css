@@ -10,14 +10,18 @@ body {
 }
 
 footer {
-    background-color: #FFCCFF;
+    background-color: #de5d83;
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 150px;
+    height: 10vw;
     width: 100%;
     overflow: hidden;
     text-align: center;
+}
+
+img {
+  border-radius: 10px;
 }
 
 .nav{
@@ -50,7 +54,7 @@ footer {
 }
 
 .nav h3 {
-    display:inline-block;
+  display: inline-block;
 	padding: 2%;
 	font-size: 2vw;
 	margin: 0;
@@ -58,38 +62,29 @@ footer {
 
 .container-slideshow {
 	width: 20%;
-    height: 20%;
+  height: 20%;
 }
 
 .container-slideshow img {
-    width:  1000px;
-    height: 500px;
+    width:  50vw;
+    height: 30vw;
 }
 
 .container-slideshow #slideshow-image-1 {
 	left: -100px;
 }
 
-.slideshow-image-1:hover {
-	transition: 1s;
-    left: 0;
-}
-
 p {
 	font-size: 2vw;
 }
 
+strong {
+  font-size: 2vw;
+}
+
 h4 {font-size: 2.5vw;}
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 1%;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-}
+
 
 .fa-facebook {
   background: #3B5998;

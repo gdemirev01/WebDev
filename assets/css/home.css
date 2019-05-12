@@ -1,0 +1,28 @@
+.container-slideshow {
+	width: 20%;
+  height: 20%;
+}
+
+.container-slideshow img {
+    width:  50vw;
+    height: 30vw;
+}
+
+.container-slideshow #slideshow-image-1 {
+	left: -100px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 2vw;
+  width: 1%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+a {
+	text-decoration: none;
+  	color: black;
+}

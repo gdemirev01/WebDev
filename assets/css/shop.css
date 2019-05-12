@@ -1,21 +1,21 @@
-
+a {
+  text-decoration: none;
+  color: black;
+}
 
 .card {
-	box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2);
-  	/* transition: 0.3s; */
+  	box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2);
   	width: 15%;
   	display: inline-block;
-
 }
 .sidebar {
 	position: absolute;
 	height: 60%;
 	width: 10%;
-    border:1px solid black;
+  border:1px solid black;
 }
 
 .container {
-  /* padding: 2px 16px; */
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -76,4 +76,13 @@
 .fa-linkedin {
   background: #007bb5;
   color: white;
+}
+
+input[type=checkbox] {
+  margin: 10%;
+  transform: scale(2);
+}
+
+label {
+  font-size: 2vw;
 }
