@@ -19,8 +19,6 @@ function showImage(id, show) {
     $("#slideshow-image-" + id).hide();
 }
 
-
-
 $(document).ready(function() {
     showImage(1, true);
     showImage(2, false);

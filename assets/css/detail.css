@@ -31,6 +31,7 @@ img {
 .add-to-cart:hover, .like:hover {
   background: #de5d83;
   color: #000; 
+  cursor: pointer;
 }
 
 .icons {
