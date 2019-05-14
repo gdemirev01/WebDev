@@ -7,6 +7,7 @@ body {
     margin: 0 0 100px;
     /* bottom = footer height */
     padding: 25px;
+    font-family: 'open sans';
 }
 
 footer {
@@ -60,19 +61,6 @@ img {
 	margin: 0;
 }
 
-.container-slideshow {
-	width: 20%;
-  height: 20%;
-}
-
-.container-slideshow img {
-    width:  50vw;
-    height: 30vw;
-}
-
-.container-slideshow #slideshow-image-1 {
-	left: -100px;
-}
 
 p {
 	font-size: 2vw;
