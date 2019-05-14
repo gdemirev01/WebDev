@@ -8,6 +8,10 @@
     height: 30vw;
 }
 
+#desc {
+  margin-bottom: 10%;
+}
+
 .fa {
   padding: 20px;
   font-size: 2vw;
